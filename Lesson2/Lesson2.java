@@ -1,7 +1,7 @@
 public class Lesson2{
   public static void main(String[]args){
     // printsum()
-    /* int grade = 82; //always declare what type of variable it is
+    int grade = 82; //always declare what type of variable it is
     if (grade>=65){
       System.out.println("pass");
     }
@@ -27,7 +27,7 @@ public class Lesson2{
     else {
       System.out.println("x is not 5");
     }
-    printSum(15);*/
+    printSum(15);
     System.out.println(args[0]);
     System.out.println(args[1]);
     printSum(5,10);
