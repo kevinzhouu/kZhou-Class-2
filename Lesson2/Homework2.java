@@ -1,17 +1,17 @@
 public class Homework2 {
   public static void main(String[]args){
     int grade = 74;
-    if (grade>=61){
-      System.out.println("D");
+    if (grade>=91){
+      System.out.println("A");
     }
-    else if (grade>=71){
-      System.out.println("C");
-    }
-    else if (grade>=81){
+    else if (grade>80){
       System.out.println("B");
     }
-    else if (grade>=91){
-      System.out.println("A");
+    else if (grade>70){
+      System.out.println("C");
+    }
+    else if (grade>60){
+      System.out.println("D");
     }
     else {
       System.out.println("F");
@@ -23,7 +23,7 @@ public class Homework2 {
   }
   public static void PrintMultiples (int a){
     boolean multiple3;
-    boolean multiple4;
+    boolean multiple4; //remainder = % and = &&
     for (int x = 1;x<=a;x++){
       if (x/3 * 3 == x){
         multiple3=true;
@@ -84,8 +84,8 @@ public class Homework2 {
       }
     }
   }
-  public static void PrintChangeBase(int y){
-    int [] arr = new int[5];
+  public static void PrintChangeBase(int num){
+    /*int [] arr = new int[5];
     int i = 0;
     while (y>0){
       arr[i]=y%2;
@@ -94,6 +94,12 @@ public class Homework2 {
     }
     for(int j=0;j<5;j++){
     System.out.println(arr[j]);
+    }*/
+    while (num>0){
+      int r = num%2;
+      num=num/2;
+      //store r in array
+      System.out.println(/*print out array backwards*/);
     }
   }
   public static void PrintFindMedian(int k,int l,int m,int n,int o){
