@@ -2,10 +2,14 @@
 public class Student {
   int grade;
   String first;
-  public Student (){
-    first="Josh";
+  public Student (String f, int g){
+    grade = g;
+    first = f;
   }
-  public String getName (){
-    return first;
+  public int getGrade(){
+    return grade;
+  }
+  public String toString (){
+    return "Student name:" + first;
   }
 }
