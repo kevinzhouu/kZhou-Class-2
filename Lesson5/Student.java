@@ -35,7 +35,7 @@ public class Student {
       System.out.println(name + " " + courses[i] + ":" + grades[i]);
     }
   }
-  public double getAverageGrade (){
+  public Double getAverageGrade (){
     Double sum = 0.0;
     for (int i = 0;i<numCourses+1;i++){
       sum+=grades[i];

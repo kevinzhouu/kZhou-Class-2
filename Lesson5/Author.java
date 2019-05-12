@@ -2,9 +2,10 @@ public class Author {
   String name;
   String email;
   char gender;
+  boolean age;
   public Author (){
-    name = "Sarah";
-    email = "sarah@gmail.com";
+    name = "Sara";
+    email = "sara@gmail.com";
     gender = 'f';
   }
   public Author (String x, String y, char z){
@@ -18,8 +19,8 @@ public class Author {
   public String getEmail (){
     return email;
   }
-  public void setEmail (String n) {
-    email = n;
+  public void setEmail (String email) {
+    this.email = email;
   }
   public char getGender () {
     return gender;
@@ -27,4 +28,15 @@ public class Author {
   public String toString () {
     return name + " (" + gender + ") at" + email;
   }
+  /*public void setAge (boolean age) {
+    this.age = age;
+  }
+  public boolean compareAge(Author a2){
+    if (this.age>=a2.age){
+
+    }
+    else {
+
+    }
+  }*/
 }
