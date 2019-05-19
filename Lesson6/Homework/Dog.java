@@ -5,4 +5,6 @@ public class Dog extends Pet {
   public String speak(){
     return "woof";
   }
+  public String LoudDog(){
+    return speak() + speak();
 }
